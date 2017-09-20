@@ -11,12 +11,12 @@ const PORT = process.env.PORT || 3000;
 ///__________________________________________________________________________________________________
 //create a new instance of discord for our bot
 const giphybot = new Discord.Client();
-//token for the bot     //Monthly Gaming token                                          //My Personal token
-const DISCORD_TOKEN = 'MzU5NzkzOTE5ODA3OTc5NTIw.DKMLvA.R7eMuCX7mDUJ0n79JbuUNAPzwFY';//'MzU5Mzc0NzE4MzU0MDYzMzYw.DKGVIw.pHeB-w5vHLG2a2XC8dGXmDhWtbg';
+//token for the bot
+const DISCORD_TOKEN = 'YOUR_DISCORD_BOT_TOKEN';
 //GIPHY API Endpoints and Authorization
-const GIPHY_URL = 'https://api.giphy.com/v1/gifs/search?q='
-const API_KEY = '&api_key=RvZNRm1VNydCeKs8b5RQHiyq9kTYIkb4'
-const RATING = '&rating=pg13'
+const GIPHY_URL = 'https://api.giphy.com/v1/gifs/search?q=';
+const API_KEY = '&api_key=YOUR_GIPHY_API_KEY';
+const RATING = '&rating=pg13';
 //variables to store last returned GIPHY data object and where we are in it
 let dataObj = {};
 let gifIndex = 0;
